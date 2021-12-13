@@ -13,9 +13,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "twpayne/taps"
 
-brew "adminer"                              # Database management in PHP
 brew "asdf"                                 # Extendable version manager
 brew "autoconf"                             # Configuration shell script maker
 brew "bash"                                 # Bourne again shell
@@ -39,10 +37,10 @@ brew "npm"                                  # Node package manager
 #brew "optipng"                             # PNG compressor/optimizer
 brew "tidy-html5"                           # HTML corrector
 brew "neofetch"                             # System information tool
-brew "php-code-sniffer"                     # PHP coding standard validator
-brew "phplint"                              # PHP code quality checker
-brew "phpmd"                                # PHP mess detector
-brew "phpunit"                              # PHP unit testig framework
+# brew "php-code-sniffer"                     # PHP coding standard validator
+# brew "phplint"                              # PHP code quality checker
+# brew "phpmd"                                # PHP mess detector
+# brew "phpunit"                              # PHP unit testig framework
 brew "pipenv"                               # Python packaging tool
 brew "postgresql", restart_service: true    # PostgreSQL RDBMS
 brew "pyenv"                                # Python version manager
@@ -61,12 +59,12 @@ brew "wget"                                 # Web content downloader
 brew "zlib"                                 # Lossless data-compression library
 brew "eugenmayer/dockersync/unox"           # Docker sync daemon
 brew "heroku/brew/heroku"                   # Heroku CLI
-brew "twpayne/taps/chezmoi"                 # Chezmoi dotfiles manager
+brew "chezmoi"                              # Chezmoi dotfiles manager
 
 cask "android-platform-tools"               # Android SDK platform-tools
-cask "font-dejavusansmono-nerd-font-mono"   # DejaVu Sans Mono Nerd Font
-cask "font-firacode-nerd-font"              # Fira Code Nerd Font
-cask "font-hack-nerd-font-mono"             # Hack Mono Nerd Font
-cask "font-meslo-nerd-font-mono"            # Meslo Mono Nerd Font
-cask "font-sourcecodepro-nerd-font-mono"    # Source Code Pro Mono Nerd Font
-cask "powershell"                           # Cross-platform shell
+cask "font-dejavu-sans-mono-nerd-font"   # DejaVu Sans Mono Nerd Font
+cask "font-fira-code-nerd-font"              # Fira Code Nerd Font
+cask "font-hack-nerd-font"             # Hack Mono Nerd Font
+cask "font-meslo-lg-nerd-font"            # Meslo Mono Nerd Font
+cask "font-sauce-code-pro-nerd-font"    # Source Code Pro Mono Nerd Font
+# cask "powershell"                           # Cross-platform shell
